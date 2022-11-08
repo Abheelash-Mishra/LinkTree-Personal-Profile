@@ -19,6 +19,7 @@ a {
     cursor: pointer;
     display: inline;
     font-size: 20px;
+    transition: transform 0.3s ease;
 }
 
 body{
@@ -65,7 +66,7 @@ body{
 
 .links {
     display: block;
-    width: auto;
+    width: 80%;
     margin: 30px auto;
 }
 
@@ -75,11 +76,24 @@ body{
     border-radius: 30px;
     margin: 0.75em;
     font-weight: bold;
+    
+}
+
+.link__text:hover::after {
+    transition: transform 0.3s ease;
+    transform: translate(2px, 2px);
+}
+
+.link__text:hover::before {
+    transition: transform 0.3s ease;
+    transform: translate(8px, 8px);
 }
 
 .link__text:hover {
     background: white;
     cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: translate(-8px, -8px);
 }
 
 .link__text:hover .fa-github, 
