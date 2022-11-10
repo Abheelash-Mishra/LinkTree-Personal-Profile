@@ -101,6 +101,7 @@ body{
 .link__text:hover .fa-instagram, 
 .link__text:hover .fa-code,
 .link__text:hover .fa-clone,
+.link__text:hover .fa-terminal,
 .link__text:hover .a__tag{
     color: black;
 }
