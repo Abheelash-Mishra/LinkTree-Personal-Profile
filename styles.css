@@ -67,7 +67,7 @@ body{
 .links {
     display: block;
     width: 80%;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 
 .link__text {
